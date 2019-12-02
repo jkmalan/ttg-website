@@ -1,40 +1,14 @@
+<?php
+    define("BASE_DIR", __DIR__);
+    define("BASE_URL", 'https://tootallgaming.com/');
+
+    $page_title = "TooTallGaming";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    <!-- App options and compatibility settings -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- App title -->
-    <title>TooTallGaming</title>
-
-    <!-- Google Tag Manager -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-N8CTNZ3');
-    </script>
-    <!-- End Google Tag Manager -->
-
-    <link rel="icon" type="image/x-icon" href="app/img/favicon.ico">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="app/css/styles.css">
-
-    <script src="app/js/scripts.js"></script>
-
-</head>
+<?php include BASE_DIR . 'app/php/template/header.php'; ?>
 
 <body>
 
@@ -42,7 +16,7 @@
 
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8CTNZ3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8CTNZ3" height="0" width="0" style="display:none; visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
