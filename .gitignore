@@ -1,8 +1,6 @@
-
 # IntelliJ IDEA Files
-/.idea
+.idea/
 *.iml
 
-# NodeJS Files
-/node_modules
-package-lock.json
+# PHP Files
+vendor/
